@@ -623,7 +623,6 @@ if Divine.Targetaim.Method == "Namecall" then
                         local predictedPosition = TargetPart.Position
                             + Vector3.new(
     TargetPart.Velocity * Divine.Targetaim.Prediction
-
                          + Vector3.new(0, Divine.AutoAir.jumpOffset or 0, 0)
 
                         Args[i] = predictedPosition
